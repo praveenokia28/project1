@@ -1,0 +1,28 @@
+git Terminology:
+
+working directory ---> staging area ---> local repository ---> remote repository.
+
+1. respository: a folder, which content are tracked by git.
+   i) local repository: which present on local computers.
+  ii) remote repository: which located on git platflorm.
+
+2. add: add a file o staging ares
+     
+     $ git add .               # to add all files in the directory.
+     $ git add <filename>      #to add only paticular file
+
+3. commit: commit file frim staging area to local repository
+
+     $ git commit -m "msg"
+
+4. push: send files to remote repository
+
+     $ git push origin main
+
+5. checkout: get a file from staging area
+
+6. checkout head: get a file from local repository
+
+7. fetch: get a file from remote repository to local repository
+
+8. pull: get a file from remote repository to working directory   
