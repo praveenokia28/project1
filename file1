@@ -1,2 +1,11 @@
 repository:
-distributed
+repository:local and remote
+
+cvs: control version system
+1. distributed: eg:- git
+2. centralised:
+
+commands:
+    $add -----  git add .
+    $commit --  git commit -m "msg"
+    $push ----  git push origin main
